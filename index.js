@@ -6,7 +6,7 @@ app.use(express.json());
 
 // set db url
 //const dbUrl = 'postgres://webadmin:MGFnmx63258@node56609-anirach-noderest.proen.app.ruk-com.cloud:11584/Books'
-const dburl = 'postgres://webadmin:MAIgsf81141@node40729-noderest.proen.app.ruk-com.cloud:11478/Books'
+const dbUrl = 'postgres://webadmin:MAIgsf81141@node40729-noderest.proen.app.ruk-com.cloud:11478/Books'
 // create a connection to the database
 const sequelize = new Sequelize(dbUrl);
 // define the Book model
