@@ -1,8 +1,12 @@
 const express = require('express');
 const Sequelize = require('sequelize');
 const app = express();
+const cors = require('cors');
+
 // parse incoming requests
 app.use(express.json());
+app.use(cors());
+
 
 // set db url
 //const dbUrl = 'postgres://webadmin:MGFnmx63258@node56609-anirach-noderest.proen.app.ruk-com.cloud:11584/Books'
